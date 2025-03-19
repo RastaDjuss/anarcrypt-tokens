@@ -1,0 +1,27 @@
+{
+  "name": "Chaotik DeFi Index Basket",
+  "symbol": "CHAOS-BSKT",
+  "description": "A basket of top DeFi assets on Solana, including SBR, RAY, and ORCA.",
+  "creator": "F9FYp4pK78F8UvWMczZgSdMynDu8KVQqpQK66GsKdzR8",      // PublicKey of the creator
+  "basketId": "BASKETr=3.57",                  // Unique identifier for the basket
+  "timestamp": "2023-11-01T12:34:56Z",      // Creation or update time
+  "version": "1.0.0",                       // Metadata version
+  "assets": [                               // List of assets in the basket
+    {
+      "name": "Chaotik Fraktal AttrakThor Community Token",
+      "symbol": "r=3.57",
+      "mintAddress": "ES124vVmsqDtHjwQxxxiKgnTBX5GtiiQE1qSgYFq83SE",  // Token Mint Address
+      "weight": 100,                              // Allocation weight in %
+      "decimals": 6
+    },
+  ],
+  "totalWeight": 100,                       // Confirm weights sum up to 100%
+  "targetPlatform": "Solana",               // Network the basket operates on
+  "externalLinks": {
+    "website": "https://anarcrypt.sol"
+  },
+  "permissions": {                          // Optional: Role-based control
+    "isTransferable": true,
+    "isWhitelistRestricted": false
+  }
+}
